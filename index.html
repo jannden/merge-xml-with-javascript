@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Merge XML with JavaScript</title>
+  <script src="merge-xml.js" type="application/javascript" defer></script>
+</head>
+<body>
+  <h1>Merge XML with JavaScript</h1>
+  <p>Choose two XML files with the same structure, or at least having the same tag filled with children you want to merge.</p>
+  <p>You can use these example files: <a href="./example1.xml">example1.xml</a> and <a href="./example2.xml">example2.xml</a> to test this tool (<code>guacamole</code> should be the merged tag in that case).</p>
+  <form id="merge">
+    <div>
+      <label for="xml1">First XML file</label>
+      <input type="file" id="xml1">
+    </div>
+    <div>
+      <label for="xml2">Second XML file</label>
+      <input type="file" id="xml2">
+    </div>
+    <div>
+      <label for="xml2">Which tag should be merged?</label>
+      <input type="text" id="tag">
+    </div>
+    <button type="submit">Merge</button>
+  </form>
+</body>
+</html>

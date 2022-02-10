@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<guacamole>
+  <ingredient>
+    <item>Avocado</item>
+    <description>Avocado is actually a large berry containing a single large seed.</description>
+  </ingredient>
+  <ingredient>
+    <item>Lime</item>
+    <description>Lime is a sour citrus fruit often used to accent the flavours of foods and beverages.</description>
+  </ingredient>
+</guacamole>
